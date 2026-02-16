@@ -7,7 +7,7 @@ import Goals from './pages/Goals';
 import Explorer from './pages/Explorer';
 import Onboarding from './pages/Onboarding';
 import Settings from './pages/Settings';
-
+import { useEffect } from 'react';
 const AppContent: React.FC = () => {
   const { user } = useAppContext();
 
